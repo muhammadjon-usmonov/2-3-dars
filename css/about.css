@@ -1,0 +1,213 @@
+.about-section .container{
+    background-image: url(..//image/jpg/about-hero-coffe.jpg);
+    background-size: 1280px 450px;
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    padding-bottom: 175px;
+    margin-top: 45px;
+}
+
+.hero{
+    width: 505px;
+    padding-left:85px;
+    padding-top: 137px;
+    text-align: left;
+    color: #fff;
+}
+
+.hero__title{
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    }
+
+.hero__paragraph{
+    color: #FEFCF7;
+    font-size:16px;
+    line-height: 26px;
+}
+
+/* 
+    commitment-section
+*/
+
+.commitment-section .container{
+    background-image: url(../image/jpg/about-commit.jpg);
+    background-repeat: no-repeat;
+    background-position: left 105px center;
+    background-size: 445px 520px;
+    margin-top: -50px;
+}
+
+.commit{
+    padding-left: 660px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: left;
+    padding-right: 90px;
+}
+
+.commitment__title{
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commitment__paragraph{
+    line-height: 26px;  
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+/* 
+    uncompro
+*/
+
+.uncompro-section .container{
+    position: relative;
+    width: 1280px;
+    background-color: hsl(213, 17%, 21%);
+    border-radius: 10px;
+    margin-bottom: 168px;
+}
+
+
+.uncompro{
+    width: 614px;
+    padding-top: 100px;
+    padding-left: 85px;
+    padding-bottom: 176px;
+    text-align: left;
+    color: #FEFCF7;
+}
+
+.uncompro-image{
+    position: absolute;
+    top: -90px;
+    right: 445px;
+}
+
+.uncompro-image::before{
+    position: absolute;
+    content: "";
+    width: 445px;
+    height: 474px;
+    background-image: url(../image/jpg/about-auality.jpg);
+    background-repeat: no-repeat;
+    background-position: right 85px top 00px;
+    background-size: 445px 474px;
+}
+
+.uncompro__title{
+    width: 540px;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces','Arail',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.uncompro__paragraph{
+    line-height: 26px;
+    opacity: 0.8;
+    margin: 0;
+}
+
+/* 
+    state-section
+ */
+
+.state-section .container{
+    text-align: left;
+    margin-bottom: 168px;
+}
+
+.state-title{
+    margin-left: 100px;
+    font-family: 'Fraunces','Arial', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.state{
+    margin-top: 70px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.state__title{
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.state__list__item{
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.state__list{
+    padding: 0;
+    margin: 0;
+}
+
+.state__item{
+    text-align: left;
+}
+
+.state__UK{
+    margin-right: 120px;
+}
+
+.state__title{
+    margin: 0;
+    padding-top: 45px;
+    margin-bottom: 24px;
+}
+
+.state__canada{
+    margin-right: 240px;
+}
+
+.state__UK::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background-image: url(../image/svg/CombinedUK.svg);
+    background-position: left 0 center;
+    background-size: 40px 50px;
+    background-repeat: no-repeat;
+}
+
+.state__canada::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background-image: url(../image/svg/Combinedcanada.svg);
+    background-position: left 0 center;
+    background-size: 40px 50px;
+    background-repeat: no-repeat;
+}
+
+.state__aus::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    background-image: url(../image/svg/CombinedUK.svg);
+    background-position: left 0 center;
+    background-size: 40px 50px;
+    background-repeat: no-repeat;
+}
